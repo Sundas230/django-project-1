@@ -1,0 +1,27 @@
+ECHO is on.
+# Ignore Python and Django stuff
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Ignore virtual environment
+env/
+venv/
+myenv/
+
+# Ignore Django migration files
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Ignore secret and temporary files
+*.log
+*.pot
+*.pyc
+.DS_Store
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore static/media cache
+staticfiles/
+media/
